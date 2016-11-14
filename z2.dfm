@@ -1,0 +1,108 @@
+object Form1: TForm1
+  Left = 192
+  Top = 124
+  Width = 747
+  Height = 291
+  Caption = 'lol'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lbl1: TLabel
+    Left = 8
+    Top = 48
+    Width = 16
+    Height = 13
+    Caption = 'lbl1'
+  end
+  object lbl2: TLabel
+    Left = 168
+    Top = 144
+    Width = 53
+    Height = 13
+    Caption = #1056#1077#1079#1091#1083#1100#1090#1072#1090
+  end
+  object lbl3: TLabel
+    Left = 8
+    Top = 176
+    Width = 16
+    Height = 13
+    Caption = 'lbl3'
+  end
+  object lbl4: TLabel
+    Left = 8
+    Top = 208
+    Width = 16
+    Height = 13
+    Caption = 'lbl4'
+  end
+  object edt1: TEdit
+    Left = 56
+    Top = 46
+    Width = 297
+    Height = 21
+    TabOrder = 0
+    Text = 'edt1'
+  end
+  object btn1: TButton
+    Left = 120
+    Top = 96
+    Width = 129
+    Height = 33
+    Caption = 'btn1'
+    TabOrder = 1
+    OnClick = btn1Click
+  end
+  object edt2: TEdit
+    Left = 80
+    Top = 168
+    Width = 305
+    Height = 21
+    TabOrder = 2
+    Text = 'edt2'
+  end
+  object edt3: TEdit
+    Left = 80
+    Top = 208
+    Width = 305
+    Height = 21
+    TabOrder = 3
+    Text = 'edt3'
+  end
+  object lst1: TListBox
+    Left = 408
+    Top = 8
+    Width = 289
+    Height = 225
+    ItemHeight = 13
+    Items.Strings = (
+      '0 = null'
+      '1 = eins'
+      '2 = zwei'
+      '3 = drei'
+      '4 = vier'
+      '5 = funf'
+      '6 = sechs'
+      '7 = sieben'
+      '8 = acht'
+      '9 = neun'
+      '10 = zehn'
+      '11 = elf'
+      '12 = zwolf'
+      '13-19 = ...zehn'
+      '20 = zwanzig'
+      '21-29 = ...undzwanzig'
+      '30 = dreizig'
+      '40-99 = ...zig'
+      '100 = (ein)hundert'
+      '101-199 = (ein)hundert...'
+      '200-999 = ...hundert...')
+    TabOrder = 4
+  end
+end
